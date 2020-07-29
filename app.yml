@@ -1,17 +1,2 @@
-runtime: nodejs10
-
-instance_class: F2
-
-env_variables:
-  DB_NAME: "node-crud-app"
-  DB_USERNAME: "blazhkos"
-  DB_PASSWORD: "1617"
-  DB_HOST: "34.89.19.253"
-
-
-
-handlers:
-  - url: /.*
-    secure: always
-    redirect_http_response_code: 301
-    script: auto
+runtime: nodejs
+env: flex
