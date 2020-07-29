@@ -25,7 +25,7 @@ app.use('/', (req, res, next) => {
 Car.belongsTo(User);
 User.hasMany(Car);
 
-sequelize.sync().then(result => {
+sequelize.sync({force: true}).then(result => {
     app.listen(process.env.PORT || 3000, () => {
         console.log(`Express server listening on port 3000!`)
     });

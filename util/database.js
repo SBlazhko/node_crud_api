@@ -3,6 +3,6 @@ const { Sequelize } = require('sequelize');
 //     host: `${process.env.DB_HOST}`,
 //     dialect: 'postgres'
 // });
-const sequelize = new Sequelize('postgres://blazhkos:1617@10.15.80.3/node-crud-app')
+const sequelize = new Sequelize('postgresql://blazhkos:1617@10.15.80.3/node-crud-app')
 
 module.exports = sequelize;
