@@ -1,9 +1,8 @@
-runtime: nodejs12 # or nodejs10
+runtime: nodejs10
 
 instance_class: F2
 
 env_variables:
-  PORT: ""
   DB_NAME: "node-crud-app"
   DB_USERNAME: "blazhkos"
   DB_PASSWORD: "1617"
